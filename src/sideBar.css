@@ -1,0 +1,10 @@
+.sideBarRight, .sideBarLeft{
+    background-color:#f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    height:40px;
+}
+.sideBarLeft, .sideBarRight{
+    flex-basis: 15%;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    height:40px;
+
+
+}
+
+.navbarElement {
+    font-family: 'Quicksand',sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color:#fdffcd;
+    align-content: space-around;
+    padding:5px;
+
+}
+
+/* Styl dla elementów nawigacji po najechaniu myszką */
+.navbarElement:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 20px;
+    padding:5px;
+    background-color: wheat;
+}

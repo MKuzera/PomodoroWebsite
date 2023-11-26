@@ -1,0 +1,10 @@
+.mainProgram{
+    background-color: #fdffcd;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    height:40px;
+}
+.mainProgram{
+     flex-basis: 70%;
+}
