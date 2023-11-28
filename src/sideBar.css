@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 .sideBarRight, .sideBarLeft{
-    background-color:#f2f2f2;
+
     padding: 10px;
     display: flex;
     justify-content: right;
-    height:40px;
+
 }
 .sideBarLeft, .sideBarRight{
     flex-basis: 15%;
+}
+h2 {
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    justify-content: left;
+    height:40px;
+    font-family: 'Quicksand',sans-serif;
+}
+p{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    height:40px;
+    font-family: 'Quicksand',sans-serif;
+}
+.pomodoro:hover{
+    box-shadow: 1px 3px 5px black;
 }
